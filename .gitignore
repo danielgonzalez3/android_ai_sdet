@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv*/
+.venv_eval/
+.pytest_cache/
+
+# C/C++ / Build
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.o
+*.obj
+*.exe
+*.out
+
+# Project-specific build dirs
+/evals/gpqa_cpp/build/
+
+# Generated evaluation outputs
+/evals/ifeval/results/*.json
+/evals/gpqa_cpp/gpqa_test.csv
+/evals/gpqa_cpp/preds_*.csv
+
+# Logs
+logs/
+*.log
+
+# Editors/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db 
