@@ -20,7 +20,7 @@ setup:
 
 ifeval:
 	$(PY) $(REPO_ROOT)/evals/ifeval/run_ifeval.py \
-		--model microsoft/Orca-2-7b  \
+		--model microsoft/Phi-3-mini-4k-instruct \
 		--max_examples 50 \
 		--output $(REPO_ROOT)/evals/ifeval/results/ifeval_metrics.json \
 		--batch_size 4 \
